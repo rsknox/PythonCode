@@ -1,3 +1,7 @@
+# sandbox version of Asteroids program
+# have the spaceship update handler working more-or-less
+# 28 Jul 2015; 1017
+
 import pygame, sys
 from pygame.locals import *
 import time
