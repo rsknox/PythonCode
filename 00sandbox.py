@@ -2,11 +2,12 @@
 # have the spaceship update handler working more-or-less
 # 28 Jul 2015; 1017
 
-import pygame, sys
-from pygame.locals import *
-import time
 import math
 import random
+import time
+
+import pygame, sys
+from pygame.locals import *
 
 
 # Define some colors as global constants
@@ -17,9 +18,11 @@ RED      = ( 255,   0,   0)
 # globals for user interface
 WIDTH = 800
 HEIGHT = 600
-score = 0
-lives = 3
-time_r = 0
+#===============================================================================
+# score = 0
+# lives = 3
+# time_r = 0
+#===============================================================================
 
 tabulae = pygame.display.set_mode([WIDTH, HEIGHT])
 
