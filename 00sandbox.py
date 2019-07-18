@@ -18,12 +18,10 @@ RED      = ( 255,   0,   0)
 # globals for user interface
 WIDTH = 800
 HEIGHT = 600
-#===============================================================================
-# score = 0
-# lives = 3
-# time_r = 0
-#===============================================================================
-
+score = 0
+lives = 3
+time_r = 0
+# add comment line
 tabulae = pygame.display.set_mode([WIDTH, HEIGHT])
 
 def angle_to_vector(ang):
